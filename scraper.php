@@ -17,7 +17,9 @@ print_r($dom->find("table.list"));
 scraperwiki::save_sqlite(array('name'), array('name' => 'susan', 'occupation' => 'software developer'));
 
 // An arbitrary query against the database
-scraperwiki::select("* from data where 'name'='peter'")
+scraperwiki::select("* from data where 'name'='peter'");
+
+echo"llllllll";
 
 
 ?>
